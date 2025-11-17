@@ -7,7 +7,7 @@ Al finalizar la práctica, serás capaz de:
 ## Objetivo Visual 
 Actividades a analizar
 
-![diagrama1](../images/1.1.jpg)
+![diagrama1](../images/1.1.png)
 
 ## Duración aproximada:
 - 60 minutos.
@@ -73,7 +73,7 @@ Paso 10. Configure la relación como sigue:
 - Varios: Donation
 - Nombre para mostrar: Donor
 
-![diagrama1](../images/1.2.jpg)
+![diagrama1](../images/1.2.png)
 
 Paso 11. Seleccione Listo y de esta manera creamos un modelo que nos prueba que el entorno esta completamente funcional.
 
