@@ -10,19 +10,19 @@ Te damos la bienvenida a la **plataforma de laboratorios** del curso **Administr
 
 Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia práctica. Haz clic en los enlaces para comenzar.
 
-### [Práctica 1. Nombre de la práctica](./Laboratorio_1.md) 
-   - **Descripción**: xxx.
-   - ⏱️ **Duración estimada**: xx min.
+### [Práctica 1. Crear y configurar un entorno sandbox](Capítulo1/README.md) 
+   - **Descripción**: Demostrar la capacidad de crear y personalizar un Entorno Sandbox de Power Platform, y establecer sus configuraciones iniciales (tipo, región, base de datos) para usarlo como espacio seguro de desarrollo y prueba..
+   - ⏱️ **Duración estimada**: 60 min.
 
-### [Práctica 2. Nombre de la práctica](./Laboratorio_2.md)
-   - **Descripción**: xxx.
-   - ⏱️ **Duración estimada**: xx min.
+### [Práctica 2. Crear unidades, equipos y roles personalizados](Capítulo2/README.md)
+   - **Descripción**: Aplicar la arquitectura de seguridad de Dataverse al crear y configurar Unidades de Negocio, Equipos y Roles de Seguridad personalizados, estableciendo así un modelo de permisos que defina la visibilidad y el acceso de los usuarios a los datos, y que refleje la estructura organizacional de la empresa.
+   - ⏱️ **Duración estimada**: 60 min.
 
-### [Práctica 3. Nombre de la práctica](./Laboratorio_3.md)
-   - **Descripción**: xxx.
-   - ⏱️**Duración estimada**: xx min.
+### [Práctica 3. Habilitar auditoría, aplicar reglas de duplicados y eliminación](Capítulo3/README.md)
+   - **Descripción**: Establecer la gobernanza y la integridad de los datos mediante la activación de la auditoría para el seguimiento de cambios, la configuración de reglas de detección de duplicados para mantener la calidad de los datos, y la planificación de trabajos de eliminación masiva para optimizar el almacenamiento y asegurar el cumplimiento normativo.
+   - ⏱️**Duración estimada**: 90 min.
 
-### [Práctica 4. Exportar, importar y versionar soluciones](./Laboratorio_4.md)
+### [Práctica 4. Exportar, importar y versionar soluciones](Capítulo4/README.md)
    - **Descripción**: Ejecutar el ciclo de vida de la aplicación (ALM) demostrando la capacidad de exportar una solución existente desde el entorno de desarrollo como Administrada, para luego importarla y actualizarla en un entorno de destino, verificando la transferencia exitosa de componentes y el mantenimiento del control de versiones..
    - ⏱️**Duración estimada**: 85 min.
 
