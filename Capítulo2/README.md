@@ -14,25 +14,27 @@ Al finalizar la práctica, serás capaz de:
 Acceso a tu cuenta Microsoft 365.
 
 ## Instrucciones 
-### Tarea 1. Crear y Configurar un Entorno Sandbox
-Paso 1: Abre tu navegador y ve al Centro de administración de Power Platform (PPAC): admin.powerplatform.microsoft.com. Inicia sesión con tu cuenta de administrador que tenga los permisos necesarios (Admin del Servicio, Admin Global, o Admin de Power Platform).
+### Tarea 1. Crear una Unidad de Negocio (Business Unit) en Dataverse
+Las Unidades de Negocio definen la estructura organizacional dentro de Dataverse y controlan cómo se segmenta la seguridad y el acceso a los datos.
 
-Paso 2: Inicia la Creación del Entorno. 
-- En el panel de navegación izquierdo, selecciona Entornos.
-- En la barra de comandos superior, haz clic en el botón + Nuevo.
+Paso 1: Ingresa a https://admin.powerplatform.microsoft.com y abre el entorno en el menú izquierdo.
 
-Paso 3: Configuración Básica del Entorno. En la primera ventana de configuración:
-- Nombre: Asigna un nombre único y descriptivo, como Mi Entorno Sandbox de Prueba.
-- Tipo: Selecciona Sandbox. Este es crucial para el aislamiento del trabajo de prueba.
-- Región: Elige la región geográfica más cercana a tus usuarios para el mejor rendimiento.
+Paso 2: Entra a la configuración del entorno, en la parte superior del panel del entorno, haz clic en Settings (Configuración) y se abre un menú con categorías.
 
-Paso 4: Configuración de la Base de Datos. Haz clic en Siguiente o navega a la sección de configuración de la base de datos:
-- Base de Datos: Asegúrate de que la opción para Crear una base de datos para este entorno esté activada (Sí).
-- Idioma: Selecciona el idioma base para la interfaz de Dataverse (ej. Español).
-- Moneda: Define la moneda predeterminada de la región (ej. EUR, USD).
-- Aplicaciones Dynamics 365: Deja esta opción desactivada si solo usarás Dataverse y Power Apps (para ahorrar consumo de almacenamiento).
+Paso 3: Entra a Usuarios y Permisos, dentro de Settings, ve a: Users + permissions → Business units (Unidades de negocio)
 
-Paso 5: Finaliza la Creación, revisando todas las configuraciones y haz clic en el botón Guardar.
+Paso 4: Crear una nueva Unidad de Negocio, en la parte superior derecha, pulsa + New business unit y se un formulario.
+
+Paso 5: Completa el formulario, verás varios campos. Los importantes son:
+- Name (Nombre)
+- Nombre de la unidad. Ejemplos: Ventas, Marketing, Región Norte, etc. Debe ser único dentro de la organización.
+- Parent Business Unit (Unidad de negocio padre), aquí decides dónde va dentro de la jerarquía. Opciones típicas:
+  - Si es la segunda unidad que creas → el padre será Root Business Unit (la unidad raíz que Dataverse crea automáticamente).
+  - Si ya tienes varias unidades → selecciona la unidad superior correspondiente.
+La jerarquía controla la herencia de permisos y visibilidad de datos, así que escógelo bien.
+- Description (Descripción) Opcional, pero útil para documentar. Ejemplo: "Unidad responsable de gestionar ventas para Latam."
+
+Paso 6: Haz clic en Save & Close para que la Unidad de Negocio quede creada.
 
 ### Tarea 2. Configurar Seguridad Mínima
 Paso 1: En el Centro de administración de Power Platform (PPAC), haz clic en el nombre de tu nuevo entorno.
