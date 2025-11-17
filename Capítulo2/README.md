@@ -17,16 +17,16 @@ Acceso a tu cuenta Microsoft 365.
 ### Tarea 1. Crear una Unidad de Negocio (Business Unit) en Dataverse
 Las Unidades de Negocio definen la estructura organizacional dentro de Dataverse y controlan cómo se segmenta la seguridad y el acceso a los datos.
 
-Paso 1: Ingresa a https://admin.powerplatform.microsoft.com y abre el entorno en el menú izquierdo.
+Paso 1. Ingresa a https://admin.powerplatform.microsoft.com y haz clic en el nombre de tu entorno.
 
-Paso 2: Entra a la configuración del entorno, en la parte superior del panel del entorno, haz clic en Settings (Configuración) y se abre un menú con categorías.
+Paso 2. Entra a la configuración del entorno, en la parte superior del panel del entorno, haz clic en Settings (Configuración) y se abre un menú con categorías.
 
-Paso 3: Entra a Usuarios y Permisos, dentro de Settings, ve a: Users + permissions → Business units (Unidades de negocio)
+Paso 3. Entra a Usuarios y Permisos, dentro de Settings, ve a: Users + permissions → Business units (Unidades de negocio)
 
-Paso 4: Crear una nueva Unidad de Negocio, en la parte superior derecha, pulsa + New business unit y se un formulario.
+Paso 4. Crear una nueva Unidad de Negocio, en la parte superior derecha, pulsa + New business unit y se un formulario.
 
-Paso 5: Completa el formulario, verás varios campos. Los importantes son:
-- Name (Nombre)
+Paso 5. Completa el formulario, verás varios campos. Los importantes son:
+- Name (Nombre).
 - Nombre de la unidad. Ejemplos: Ventas, Marketing, Región Norte, etc. Debe ser único dentro de la organización.
 - Parent Business Unit (Unidad de negocio padre), aquí decides dónde va dentro de la jerarquía. Opciones típicas:
   - Si es la segunda unidad que creas → el padre será Root Business Unit (la unidad raíz que Dataverse crea automáticamente).
@@ -34,16 +34,36 @@ Paso 5: Completa el formulario, verás varios campos. Los importantes son:
 La jerarquía controla la herencia de permisos y visibilidad de datos, así que escógelo bien.
 - Description (Descripción) Opcional, pero útil para documentar. Ejemplo: "Unidad responsable de gestionar ventas para Latam."
 
-Paso 6: Haz clic en Save & Close para que la Unidad de Negocio quede creada.
+Paso 6. Haz clic en Save & Close para que la Unidad de Negocio quede creada.
 
-### Tarea 2. Configurar Seguridad Mínima
-Paso 1: En el Centro de administración de Power Platform (PPAC), haz clic en el nombre de tu nuevo entorno.
+### Tarea 2. Crear equipos dentro de una Unidad de Negocio en Dataverse
+Paso 1. En el Centro de administración de Power Platform, haz clic en el nombre de tu entorno.
 
-Paso 2: En la barra de comandos superior del entorno, haz clic en Configuración. Se abrirá una nueva página. En el menú de navegación, selecciona Usuarios + permisos y luego haz clic en Usuarios.
+Paso 2. Abre configuraciones, dentro del entorno, haz clic en Settings (Configuraciones).
 
-Paso 3: Busca tu usuario (o un usuario de prueba). Haz clic en el usuario y luego en el botón ... (más acciones). Selecciona Administrar roles de seguridad.
+Paso 3. Abre la sección de administración de equipos, dentro de Settings Users + permissions → Teams. Aquí verás todos los equipos existentes en el entorno.
 
-Paso 4: Asigna el rol Administrador del Sistema a tu usuario.
+Paso 4. Crea un nuevo equipo en la parte superior derecha + New team. Se abrirá un formulario con varias opciones.
+
+Paso 5. Completa los campos del equipo:
+- Name (Nombre). Elige un nombre claro. Ejemplos: Equipo Ventas, Soporte Nivel 1 Marketing Digital
+- Business Unit (Unidad de negocio). Selecciona la Unidad de Negocio donde quieres que viva el equipo. Ejemplo: Ventas Latam
+- Team type (Tipo de equipo). Tipos más usados:
+  - Owner Team:	Tiene propiedad de registros y seguridad fuerte. El más común y el recomendado para comenzar.
+  - Azure AD Security Group Team:	Usa un grupo de Azure AD como miembros.
+  - AAD Office Group (Microsoft 365 Group):	Equipo conectado a un grupo de Microsoft 365.
+  - Access Team:	No posee registros; sirve para compartir acceso temporal.
+- Administrator (Administrador del equipo). Selecciona un usuario responsable del equipo (Debe pertenecer a la misma Unidad de Negocio.)
+- Description (Opcional). Puedes documentar propósito, funciones, etc.
+
+Paso 6. Guardar el equipo, haz clic en Save & Close.
+
+Paso 7. Agrega miembros al equipo. Una vez guardado ábrelo de nuevo, ve a la pestaña Member y haz clic en: + Add members. Selecciona los usuarios que pertenezcan a esa Unidad de Negocio.
+
+Paso 8. Asigna roles de seguridad al equipo para tenga permisos:
+- Dentro del equipo → pestaña Security roles
+- Clic en Manage roles
+- Selecciona los roles apropiados para su función. Esto define qué datos y acciones puede realizar el equipo. 
 
 ### Tarea 3. Probar la configuración creando tablas mediante Copilot
 Paso 1. En https://make.powerapps.com/ seleccione Tablas en el panel de navegación izquierdo.
