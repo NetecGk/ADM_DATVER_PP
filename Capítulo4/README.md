@@ -57,7 +57,7 @@ El desarrollador principal, por error, exportó la aplicación de nóminas como 
 
 Selecciona la respuesta más adecuada para cada pregunta.
 
-1. ¿Cuál fue la principal consecuencia de importar una Solución NO Administrada en el entorno de Producción?
+#### 1. ¿Cuál fue la principal consecuencia de importar una Solución NO Administrada en el entorno de Producción?
 
 A. Se eliminaron todos los datos existentes en el entorno de Producción.
 
@@ -67,7 +67,7 @@ C. La aplicación dejó de funcionar inmediatamente porque los flujos de trabajo
 
 D. La solución se revirtió automáticamente a la versión anterior instalada en el entorno.
 
-2. En el escenario donde se intentó desinstalar la característica obsoleta, ¿por qué el proceso falló y dejó componentes huérfanos?
+#### 2. En el escenario donde se intentó desinstalar la característica obsoleta, ¿por qué el proceso falló y dejó componentes huérfanos?
 
 A. Solo se pueden desinstalar soluciones si el entorno está en modo de administración.
 
@@ -77,7 +77,7 @@ C. La solución no tenía permisos de "Eliminar" en el Rol de Seguridad.
 
 D. El número de versión de la solución era demasiado alto para el entorno de Producción.
 
-3. Si la solución se hubiera importado correctamente como Solución Administrada, ¿qué habría permitido que la desinstalación fuera exitosa y limpia?
+#### 3. Si la solución se hubiera importado correctamente como Solución Administrada, ¿qué habría permitido que la desinstalación fuera exitosa y limpia?
 
 A. Permite que todos los componentes sean editados manualmente por el equipo de TI antes de desinstalar.
 
@@ -87,7 +87,7 @@ C. Crea automáticamente copias de seguridad de todos los componentes en Azure D
 
 D. Requiere que se reinicie la instancia de Dataverse antes de la desinstalación.
 
-4. ¿Cuál es el principal beneficio de seguridad que una Solución Administrada ofrece al entorno de Producción?
+#### 4. ¿Cuál es el principal beneficio de seguridad que una Solución Administrada ofrece al entorno de Producción?
 
 A. Asegura que los datos no puedan ser eliminados por usuarios con el Rol de Creador de Entornos.
 
@@ -97,7 +97,7 @@ C. Permite auditar automáticamente todos los cambios realizados a la solución 
 
 D. Bloquea el acceso a la aplicación para usuarios que no tienen licencia Premium.
 
-5. ¿En qué tipo de entorno y con qué tipo de solución se deben realizar siempre los cambios y las correcciones de errores antes de la migración?
+#### 5. ¿En qué tipo de entorno y con qué tipo de solución se deben realizar siempre los cambios y las correcciones de errores antes de la migración?
 
 A. En el entorno de Pruebas (TEST) usando una Solución Administrada.
 
@@ -107,7 +107,7 @@ C. En el entorno de Desarrollo (DEV) usando una Solución No Administrada.
 
 D. En el Centro de Administración de Power Platform (PPAC) usando el rol de Administrador Global.
 
-6. En el contexto de ALM, ¿a qué se refiere la frase "componentes huérfanos" que dejó la desinstalación fallida en Producción?
+#### 6. En el contexto de ALM, ¿a qué se refiere la frase "componentes huérfanos" que dejó la desinstalación fallida en Producción?
 
 A. Archivos temporales del sistema que deben eliminarse con la herramienta de limpieza de disco.
 
@@ -118,7 +118,7 @@ C. Cualquier componente que no haya sido tocado por el desarrollador durante los
 
 D. Los datos de usuario que han quedado sin dueño en una tabla.
 
-7. Si el equipo de TI detecta que la aplicación necesita un cambio menor (un parche) después del despliegue exitoso de la v1.0, ¿cuál es la mejor práctica de ALM para aplicar la corrección?
+#### 7. Si el equipo de TI detecta que la aplicación necesita un cambio menor (un parche) después del despliegue exitoso de la v1.0, ¿cuál es la mejor práctica de ALM para aplicar la corrección?
 
 A. Editar el componente directamente en Producción y luego volver a exportarlo como Administrada.
 
@@ -128,7 +128,7 @@ C. Desinstalar la v1.0 completamente e importar una Solución No Administrada co
 
 D. Usar la función de 'Hotfix' del Centro de Administración para aplicar el cambio sin versionar.
 
-8. ¿Qué sucede si el desarrollador intenta importar una nueva versión de la Solución Administrada que tiene una versión menor a la que ya está instalada en Producción?
+#### 8. ¿Qué sucede si el desarrollador intenta importar una nueva versión de la Solución Administrada que tiene una versión menor a la que ya está instalada en Producción?
 
 A. La importación sobrescribe automáticamente la versión actual con la versión más antigua.
 
@@ -138,7 +138,7 @@ C. El sistema permite la importación y fusiona las características de ambas ve
 
 D. El entorno se desactiva hasta que el administrador apruebe la versión más baja.
 
-9. ¿Cuál es la herramienta o práctica de ALM que se recomienda para eliminar el riesgo de que una persona cometa el error de exportar el tipo de solución incorrecto (No Administrada) a Producción?
+#### 9. ¿Cuál es la herramienta o práctica de ALM que se recomienda para eliminar el riesgo de que una persona cometa el error de exportar el tipo de solución incorrecto (No Administrada) a Producción?
 
 A. La función de Auditoría del entorno.
 
@@ -148,7 +148,7 @@ C. La implementación de Pipelines de Power Platform o Azure DevOps.
 
 D. El uso de la Herramienta de Comprobación de Soluciones.
 
-10. En el contexto de una 'actualización' (importar una nueva versión de una Solución Administrada), si el componente actualizado tiene una versión mayor (ej. de v1.0 a v2.0), ¿qué es cierto sobre el componente antiguo?
+#### 10. En el contexto de una 'actualización' (importar una nueva versión de una Solución Administrada), si el componente actualizado tiene una versión mayor (ej. de v1.0 a v2.0), ¿qué es cierto sobre el componente antiguo?
 
 A. La versión antigua se mantiene como una capa superpuesta inactiva.
 
