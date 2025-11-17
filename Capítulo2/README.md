@@ -65,38 +65,39 @@ Paso 8. Asigna roles de seguridad al equipo para tenga permisos:
 - Clic en Manage roles
 - Selecciona los roles apropiados para su función. Esto define qué datos y acciones puede realizar el equipo. 
 
-### Tarea 3. Probar la configuración creando tablas mediante Copilot
-Paso 1. En https://make.powerapps.com/ seleccione Tablas en el panel de navegación izquierdo.
+### Tarea 3. Crear un rol personalizado
+Paso 1. En el Centro de administración de Power Platform, haz clic en el nombre de tu entorno.
 
-Paso 2. Seleccione Empezar con Copilot.
+Paso 2. Seleccione Ver todo en Roles de seguridad, en la panel Acceso a la derecha.
 
-Paso 3. En la pantalla Describir las tablas que creará Copilot, introduzca "Crea una tabla para administrar las donaciones recibidas. La tabla debe identificar el tipo de donación que se recibió, el importe, la fecha y el motivo, si se proporcionó".
+Paso 3. Seleccione Nuevo rol en la barra de menú superior, lo que abrirá el diseñador de roles de seguridad.
 
-Paso 4. Junto al botón Generar, seleccione Configuración de tabla y configure lo siguiente:
-- Opciones de tabla: una tabla
-- Tamaño de la tabla: pequeña
-- NO incluya relaciones.
+Paso 4. Introduzca un nombre, como "Mi nuevo rol de seguridad", para su rol de seguridad en el campo Nombre del rol.
 
-Paso 5. Seleccione el botón Generar. Copilot solo debería crear una tabla llamada Donation. Si se crearon más, puede eliminarlas diciéndole a Copilot el nombre de la tabla que desea eliminar.
+Paso 5. Seleccione una Unidad de negocio (es posible que solo tenga una, de forma predeterminada, pero esta es una entrada obligatoria).
 
-Paso 6. En la barra de comandos de la parte superior, seleccione + Tabla existente.
+Paso 6. Seleccione Guardar. Tras unos momentos, el nuevo rol de seguridad aparecerá en una pantalla de configuración, con una lista de las tablas en el entorno. Puede buscar la tabla en el campo de búsqueda, en la parte superior derecha de la pantalla de configuración.
 
-Paso 7. En la pantalla Seleccionar tabla, cambie de Recomendadas a Todas las tablas.
+![diagrama1](../images/2.2.jpg)
 
-Paso 8. En el campo de búsqueda, introduzca Contact y elija Agregar seleccionado.
+Paso 7. Cuando encuentre la tabla en la lista, selecciónela. Como puede ver, aparecen menús desplegables bajo los distintos privilegios que puede asignar para este rol de seguridad, como Crear, Leer, Escribir, Eliminar, Anexar, Anexar a, Asignar y Compartir. Seleccione el ámbito para realizar esa acción seleccionando el nombre de la tabla. El ámbito determina la profundidad o altura en la jerarquía del entorno en la que el usuario puede realizar una acción en particular. Utilice los menús desplegables a fin de asignar privilegios para este grupo de seguridad y para esta tabla en particular. Para nuestro nuevo rol, vamos a hacer algo sencillo: vamos a dejar que Organización pueda crear, leer, escribir, eliminar, asignar y compartir un registro en esta tabla.
 
-Paso 9. En la barra de comandos, seleccione Crear relaciones.
+Paso 8. Seleccione Guardar y cerrar en la barra de comandos.
 
-Paso 10. Configure la relación como sigue:
-- Tipo de relación: uno a varios
-- Uno: Contact
-- Varios: Donation
-- Nombre para mostrar: Donor
+### Tarea 4. Asignar usuarios a su rol de seguridad
+Tras guardar y cerrar su nuevo rol de seguridad, estará en la pantalla Roles de seguridad. (Si no sabe dónde está, vaya a Configuración > Usuarios + permisos > Roles de seguridad).
 
-![diagrama1](../images/1.2.png)
+Paso 1. Busque el rol de seguridad que hemos creado desplazándose hacia abajo en la lista o introduciendo el nombre de su nuevo rol en el campo "Buscar por nombre" de la parte superior derecha de la pantalla.
 
-Paso 11. Seleccione Listo y de esta manera creamos un modelo que nos prueba que el entorno esta completamente funcional.
+Paso 2. Seleccione el rol y seleccione el botón Más acciones (...) > Miembros. Si selecciona por error el nombre del rol, regresará a la pantalla de configuración de este; si regresa a la pantalla Roles de seguridad, seleccione el botón Más acciones.
+
+Paso 3. Su nuevo rol de seguridad tendrá un botón Agregar personas. Selecciónelo.
+
+Paso 4. Aparecerá un panel Agregar personas en el lado derecho de la pantalla. Tiene un campo de búsqueda donde puede introducir el nombre de una persona, el correo electrónico o el nombre de un equipo. Busque y agregue varios usuarios seleccionando su nombre en los resultados de búsqueda.
+
+Paso 5. Cuando tenga varias personas en la lista, seleccione el botón Agregar en la parte inferior del panel Agregar personas.
+
+Paso 6. Tras unos momentos, los usuarios para su nuevo rol de seguridad aparecerán debajo de Miembros. Si necesita eliminar un usuario, puede seleccionar el nombre de la persona; al hacerlo, aparecerá un botón de acción Eliminar en la parte superior izquierda de la barra de comandos. Si necesita agregar otro usuario, compruebe que no haya ningún usuario seleccionado; verá un botón "Agregar personas" en la parte superior izquierda de la barra de comandos.
 
 ### Resultado esperado
-
-![imagen resultado](../images/1.3.jpg)
+![imagen resultado](../images/2.3.jpg)
