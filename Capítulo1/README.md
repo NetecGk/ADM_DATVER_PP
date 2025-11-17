@@ -7,7 +7,7 @@ Al finalizar la práctica, serás capaz de:
 ## Objetivo Visual 
 Actividades a analizar
 
-![diagrama1](../images/Img1.1.jpg)
+![diagrama1](../images/1.1.jpg)
 
 ## Duración aproximada:
 - 60 minutos.
@@ -45,31 +45,38 @@ Paso 3: Busca tu usuario (o un usuario de prueba). Haz clic en el usuario y lueg
 
 Paso 4: Asigna el rol Administrador del Sistema a tu usuario.
 
-### Tarea 3. Necesidades de gobernanza (centro)
-Tres cuadros azules:
+### Tarea 3. Probar la configuración creando tablas mediante Copilot
+Paso 1. En https://make.powerapps.com/ seleccione Tablas en el panel de navegación izquierdo.
 
-Paso 1. “Establecer políticas de uso y seguridad”
+Paso 2. Seleccione Empezar con Copilot.
 
-Paso 2. “Centralizar reportes de uso y métricas”
+Paso 3. En la pantalla Describir las tablas que creará Copilot, introduzca "Crea una tabla para administrar las donaciones recibidas. La tabla debe identificar el tipo de donación que se recibió, el importe, la fecha y el motivo, si se proporcionó".
 
-Paso 3. “Definir roles y responsabilidades”
+Paso 4. Junto al botón Generar, seleccione Configuración de tabla y configure lo siguiente:
+- Opciones de tabla: una tabla
+- Tamaño de la tabla: pequeña
+- NO incluya relaciones.
 
-### Tarea 4. Solución propuesta: CoE Starter Kit (columna derecha o inferior)
-Un cuadro verde grande para Implementar un CoE con:
+Paso 5. Seleccione el botón Generar. Copilot solo debería crear una tabla llamada Donation. Si se crearon más, puede eliminarlas diciéndole a Copilot el nombre de la tabla que desea eliminar.
 
--Monitorear actividad
+Paso 6. En la barra de comandos de la parte superior, seleccione + Tabla existente.
 
--Definir estándares
+Paso 7. En la pantalla Seleccionar tabla, cambie de Recomendadas a Todas las tablas.
 
--Capacitar usuarios
+Paso 8. En el campo de búsqueda, introduzca Contact y elija Agregar seleccionado.
 
--Fomentar innovación responsable
+Paso 9. En la barra de comandos, seleccione Crear relaciones.
 
-### Tarea 5. Conexiones
-Une cada riesgo con su medida o acción de gobernanza por ejemplo:
+Paso 10. Configure la relación como sigue:
+- Tipo de relación: uno a varios
+- Uno: Contact
+- Varios: Donation
+- Nombre para mostrar: Donor
 
-🔴 “Falta de control de flujos” → 🟦 “Políticas de seguridad” → 🟩 “CoE Starter Kit”
+![diagrama1](../images/1.2.jpg)
+
+Paso 11. Seleccione Listo y de esta manera creamos un modelo que nos prueba que el entorno esta completamente funcional.
 
 ### Resultado esperado
 
-![imagen resultado](../images/Img1.2.png)
+![imagen resultado](../images/1.3.jpg)
