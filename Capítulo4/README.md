@@ -2,13 +2,13 @@
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-- Ejecutar el ciclo de vida de la aplicación (ALM) demostrando la capacidad de exportar una solución existente desde el entorno de desarrollo como Administrada, para luego importarla y actualizarla en un entorno de destino, verificando la transferencia exitosa de componentes y el mantenimiento del control de versiones.
+- Ejecutar el ciclo de vida de la aplicación (ALM) demostrando la capacidad de exportar una solución existente desde el entorno de desarrollo como administrador, para luego importarla y actualizarla en un entorno de destino, verificando la transferencia exitosa de componentes y el mantenimiento del control de versiones.
 
 ## Objetivo Visual 
 ![diagrama1](../images/4.1.png)
 
 ## Duración aproximada:
-- 60 minutos.
+- 85 minutos.
 
 ## Tabla de ayuda:
 Acceso a tu cuenta Microsoft 365.
