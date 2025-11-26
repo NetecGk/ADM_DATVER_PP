@@ -1,4 +1,4 @@
-# Crear y configurar un entorno sandbox
+# Práctica 1. Crear y configurar un entorno sandbox
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
