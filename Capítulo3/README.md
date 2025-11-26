@@ -4,20 +4,20 @@
 Al finalizar la práctica, serás capaz de:
 - Establecer la gobernanza y la integridad de los datos mediante la activación de la auditoría para el seguimiento de cambios, la configuración de reglas de detección de duplicados para mantener la calidad de los datos y la planificación de trabajos de eliminación masiva para optimizar el almacenamiento y asegurar el cumplimiento normativo.
 
-## Objetivo Visual 
+### Objetivo visual 
 ![diagrama1](../images/3.1.png)
 
-## Duración aproximada:
+### Duración aproximada:
 - 90 minutos.
 
-## Tabla de ayuda:
+### Tabla de ayuda:
 Acceso a tu cuenta Microsoft 365.
 
 ## Instrucciones 
-### Tarea 1. Configurar auditoría para un entorno
-La auditoría puede configurarse en tres niveles: un entorno, tabla y columna. La auditoría debe activarse primero en el nivel de entorno. Para registrar los cambios de datos en una tabla, la auditoría debe estar activada para la tabla y para la columna.
+### Tarea 1. Configurar auditoría para un entorno.
+La auditoría puede configurarse en tres niveles: un **entorno**, **tabla** y **columna**. La auditoría debe activarse primero en el nivel de **entorno**. Para registrar los cambios de datos en una tabla, la auditoría debe estar activada para la tabla y para la columna.
 
-Paso 1. Inicie sesión en https://admin.powerplatform.microsoft.com
+**Paso 1.** Inicia sesión en [https://admin.powerplatform.microsoft.com](url).
 
 Paso 2. En el menú izquierdo, seleccione Seguridad > Cumplimiento.
 
