@@ -8,7 +8,7 @@ Al finalizar la práctica, serás capaz de:
 ![diagrama1](../images/3.1.png)
 
 ## Duración aproximada:
-- 60 minutos.
+- 90 minutos.
 
 ## Tabla de ayuda:
 Acceso a tu cuenta Microsoft 365.
