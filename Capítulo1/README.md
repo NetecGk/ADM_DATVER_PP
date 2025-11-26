@@ -15,7 +15,7 @@ Acceso a tu cuenta Microsoft 365.
 
 ## Instrucciones 
 ### Tarea 1. Crear y configurar un entorno sandbox.
-**Paso 1.** Abre tu navegador y ve al Centro de administración de Power Platform (PPAC): [admin.powerplatform.microsoft.com](admin.powerplatform.microsoft.com). Inicia sesión con tu cuenta de administrador que tenga los permisos necesarios (admin del servicio, admin global, o admin de Power Platform).
+**Paso 1.** Abre tu navegador y ve al Centro de administración de Power Platform (PPAC): [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com). Inicia sesión con tu cuenta de administrador que tenga los permisos necesarios (admin del servicio, admin global, o admin de Power Platform).
 
 **Paso 2.** Inicia la creación del entorno. 
 - En el panel de navegación izquierdo, selecciona `Entornos`.
