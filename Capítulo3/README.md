@@ -1,4 +1,4 @@
-# Habilitar auditoría, aplicar reglas de duplicados y eliminación
+# Práctica 3. Habilitar auditoría, aplicar reglas de duplicados y eliminación
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
