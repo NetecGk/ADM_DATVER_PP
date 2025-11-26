@@ -1,16 +1,16 @@
 # Práctica 2. Crear unidades, equipos y roles personalizados
 
-## Objetivo de la práctica:
+## Objetivo
 Al finalizar la práctica, serás capaz de:
 - Aplicar la arquitectura de seguridad de Dataverse al crear y configurar unidades de negocio, equipos y roles de seguridad personalizados, estableciendo así un modelo de permisos que defina la visibilidad y el acceso de los usuarios a los datos y que refleje la estructura organizacional de la empresa.
 
 ### Objetivo visual 
 ![diagrama1](../images/2.1.png)
 
-### Duración aproximada:
+### Duración aproximada
 - 60 minutos.
 
-### Tabla de ayuda:
+### Tabla de ayuda
 Acceso a tu cuenta Microsoft 365.
 
 ## Instrucciones 
