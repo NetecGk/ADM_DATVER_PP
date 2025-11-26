@@ -73,7 +73,7 @@ Acceso a tu cuenta Microsoft 365.
 
 ![diagrama1](../images/1.2.png)
 
-Paso 11. Selecciona `Listo` y, de esta manera, creaste un modelo que prueba que el entorno está completamente funcional.
+**Paso 11.** Selecciona `Listo` y, de esta manera, creaste un modelo que prueba que el entorno está completamente funcional.
 
 ### Resultado esperado:
 
