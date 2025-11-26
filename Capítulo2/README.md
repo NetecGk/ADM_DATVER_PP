@@ -17,7 +17,7 @@ Acceso a tu cuenta Microsoft 365.
 ### Tarea 1. Crear una unidad de negocio (business unit) en Dataverse.
 Las **unidades de negocio** definen la estructura organizacional dentro de Dataverse y controlan cómo se segmenta la seguridad y el acceso a los datos.
 
-**Paso 1.** Ingresa a [https://admin.powerplatform.microsoft.com](url) y haz clic en el nombre de tu entorno.
+**Paso 1.** Ingresa a [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) y haz clic en el nombre de tu entorno.
 
 **Paso 2.** Entra a la configuración del entorno, en la parte superior del panel del entorno, haz clic en `Settings` (configuración), se abrirá un menú con categorías.
 
