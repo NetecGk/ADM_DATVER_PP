@@ -36,7 +36,7 @@ Las **unidades de negocio** definen la estructura organizacional dentro de Datav
 
 **Paso 6.** Haz clic en `Save & Close` para que la unidad de negocio quede creada.
 
-### Tarea 2. Crear equipos dentro de una unidad de negocio en Dataverse
+### Tarea 2. Crear equipos dentro de una unidad de negocio en Dataverse.
 **Paso 1.** En el **Centro de administración de Power Platform**, haz clic en el nombre de tu entorno.
 
 **Paso 2.** Abre configuraciones, dentro del entorno, haz clic en `Settings`.
