@@ -2,7 +2,7 @@
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-- Aplicar la arquitectura de seguridad de Dataverse al crear y configurar Unidades de Negocio, Equipos y Roles de Seguridad personalizados, estableciendo así un modelo de permisos que defina la visibilidad y el acceso de los usuarios a los datos, y que refleje la estructura organizacional de la empresa.
+- Aplicar la arquitectura de seguridad de Dataverse al crear y configurar unidades de negocio, equipos y roles de seguridad personalizados, estableciendo así un modelo de permisos que defina la visibilidad y el acceso de los usuarios a los datos y que refleje la estructura organizacional de la empresa.
 
 ## Objetivo Visual 
 ![diagrama1](../images/2.1.png)
