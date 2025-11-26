@@ -17,7 +17,7 @@ Acceso a tu cuenta Microsoft 365.
 ### Tarea 1. Configurar auditoría para un entorno.
 La auditoría puede configurarse en tres niveles: un **entorno**, **tabla** y **columna**. La auditoría debe activarse primero en el nivel de **entorno**. Para registrar los cambios de datos en una tabla, la auditoría debe estar activada para la tabla y para la columna.
 
-**Paso 1.** Inicia sesión en [https://admin.powerplatform.microsoft.com](url).
+**Paso 1.** Inicia sesión en [https://admin.powerplatform.microsoft.com]([url](https://admin.powerplatform.microsoft.com)).
 
 Paso 2. En el menú izquierdo, seleccione Seguridad > Cumplimiento.
 
