@@ -1,16 +1,16 @@
 # Práctica 3. Habilitar auditoría, aplicar reglas de duplicados y eliminación
 
-## Objetivo de la práctica:
+## Objetivo 
 Al finalizar la práctica, serás capaz de:
 - Establecer la gobernanza y la integridad de los datos mediante la activación de la auditoría para el seguimiento de cambios, la configuración de reglas de detección de duplicados para mantener la calidad de los datos y la planificación de trabajos de eliminación masiva para optimizar el almacenamiento y asegurar el cumplimiento normativo.
 
 ### Objetivo visual 
 ![diagrama1](../images/3.1.png)
 
-### Duración aproximada:
+### Duración aproximada
 - 90 minutos.
 
-### Tabla de ayuda:
+### Tabla de ayuda
 Acceso a tu cuenta Microsoft 365.
 
 ## Instrucciones 
