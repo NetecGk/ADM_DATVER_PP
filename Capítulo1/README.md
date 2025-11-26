@@ -2,7 +2,7 @@
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-- Demostrar la capacidad de crear y personalizar un Entorno Sandbox de Power Platform, y establecer sus configuraciones iniciales (tipo, región, base de datos) para usarlo como espacio seguro de desarrollo y prueba.
+- Demostrar la capacidad de crear y personalizar un entorno sandbox de Power Platform y establecer sus configuraciones iniciales (tipo, región, base de datos) para usarlo como espacio seguro de desarrollo y prueba.
 
 ## Objetivo Visual 
 ![diagrama1](../images/1.1.png)
