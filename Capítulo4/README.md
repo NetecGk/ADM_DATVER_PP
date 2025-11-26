@@ -30,7 +30,7 @@ Acceso a tu cuenta Microsoft 365.
 **Paso 4.** Aparece el panel derecho `Exportar esta solución`.
   - Introduce o selecciona entre las siguientes opciones.
     - **Número de versión**: Power Apps incrementa automáticamente la versión de la solución mientras se muestra la versión actual. Puedes aceptar la versión predeterminada o introducir la propia.
-    - **Exportar como**: selecciona el tipo de paquete, **Administrado** o **No administrado**.
+    - **Exportar como**: selecciona el tipo de paquete, **administrado** o **no administrado**.
     - **Ejecutar comprobador de soluciones al exportar**: ejecuta el comprobador de la solución en la solución para detectar problemas de rendimiento y estabilidad.
   - Selecciona `Exportar`.
   
