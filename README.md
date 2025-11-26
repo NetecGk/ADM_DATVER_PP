@@ -11,7 +11,7 @@ Te damos la bienvenida a la **plataforma de laboratorios** del curso **Administr
 Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia práctica. Haz clic en los enlaces para comenzar.
 
 ### [Práctica 1. Crear y configurar un entorno sandbox](Capítulo1/README.md) 
-   - **Descripción**: Demostrar la capacidad de crear y personalizar un Entorno Sandbox de Power Platform, y establecer sus configuraciones iniciales (tipo, región, base de datos) para usarlo como espacio seguro de desarrollo y prueba..
+   - **Descripción**: Demostrar la capacidad de crear y personalizar un entorno sandbox de Power Platform y establecer sus configuraciones iniciales (tipo, región, base de datos) para usarlo como espacio seguro de desarrollo y prueba.
    - ⏱️ **Duración estimada**: 60 min.
 
 ### [Práctica 2. Crear unidades, equipos y roles personalizados](Capítulo2/README.md)
