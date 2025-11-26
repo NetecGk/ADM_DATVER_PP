@@ -1,4 +1,4 @@
-# Crear unidades, equipos y roles personalizados
+# Práctica 2. Crear unidades, equipos y roles personalizados
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
