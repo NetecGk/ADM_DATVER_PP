@@ -1,16 +1,16 @@
 # Práctica 1. Crear y configurar un entorno sandbox
 
-## Objetivo de la práctica:
+## Objetivos
 Al finalizar la práctica, serás capaz de:
 - Demostrar la capacidad de crear y personalizar un entorno sandbox de Power Platform y establecer sus configuraciones iniciales (tipo, región, base de datos) para usarlo como espacio seguro de desarrollo y prueba.
 
 ### Objetivo visual 
 ![diagrama1](../images/1.1.png)
 
-### Duración aproximada:
+### Duración aproximada
 - 60 minutos.
 
-### Tabla de ayuda:
+### Tabla de ayuda
 Acceso a tu cuenta Microsoft 365.
 
 ## Instrucciones 
