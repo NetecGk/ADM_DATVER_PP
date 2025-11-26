@@ -19,7 +19,7 @@ Acceso a tu cuenta Microsoft 365.
 
 **Paso 1.** Inicia sesión en Power Apps y selecciona `Soluciones` en el panel de navegación de la izquierda. Si no se encuentra en el panel lateral, selecciona `…Más` y, a continuación, el elemento que desees.
 
-**Paso 2.** En la lista de soluciones, seleccione la solución no administrada que desea exportar y luego seleccione Exportar. Tenga en cuenta que no puede exportar soluciones administradas.
+**Paso 2.** En la lista de soluciones, selecciona la solución no administrada que desea exportar y luego selecciona Exportar. Tenga en cuenta que no puede exportar soluciones administradas.
 
 **Paso 3.** Aparece el panel derecho `Antes de exportar`.
   - Elige entre las siguientes opciones.
