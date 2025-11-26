@@ -19,7 +19,7 @@ Acceso a tu cuenta Microsoft 365.
 
 **Paso 1.** Inicia sesión en Power Apps y selecciona `Soluciones` en el panel de navegación de la izquierda. Si no se encuentra en el panel lateral, selecciona `…Más` y, a continuación, el elemento que desees.
 
-**Paso 2.** En la lista de soluciones, selecciona la solución no administrada que desea exportar y luego selecciona Exportar. Tenga en cuenta que no puede exportar soluciones administradas.
+**Paso 2.** En la lista de soluciones, selecciona la solución no administrada que deseas exportar y luego selecciona `Exportar`. Ten en cuenta que no puede exportar soluciones administradas.
 
 **Paso 3.** Aparece el panel derecho `Antes de exportar`.
   - Elige entre las siguientes opciones.
@@ -44,7 +44,7 @@ La exportación puede tardar varios minutos en completarse. Una vez finalizada, 
 
 **Paso 2.** En la barra de comandos, selecciona `Importar solución`.
 
-**Paso 3.** En la página **Importar una solución**, selecciona desde dónde desea importar la solución:
+**Paso 3.** En la página **Importar una solución**, selecciona desde dónde deseas importar la solución:
   - **Este dispositivo**. Selecciona `Examinar` para buscar el archivo comprimido (.zip o .cab) ubicado en el dispositivo que contiene la solución que a importar.
   - **Canalización**. Selecciona esta opción para importar una solución desde una canalización. Para usar esta opción, debes de haber configurado la solución dentro de una canalización.
 
